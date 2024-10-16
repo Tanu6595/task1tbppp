@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+    header{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+height: 80px;    
+width:1600px ;
+background-color: rgb(246, 238, 238);    
+
+
+}
+        
+.nav a{
+ text-decoration: none;
+ height: 80px;
+width: 1600px;
+padding: 10px 20px;
+color: black;
+font-size: 20px;
+ 
+
+
+}
+img{
+    height:600px;
+    width: 1600px;
+ 
+}
+.main{
+    position:relative;
+    display: flex;
+    
+}
+
+ .box{
+    background-color: black;
+    height: 60px;
+    width: 300px;
+    margin-top: 100px;
+     position: absolute;
+    margin-left: 600px;
+    margin-top: 200px;
+    color: aliceblue;
+    
+ }
+ .h{
+    padding-top: 10px;
+    align-items: center;
+    font-size: 30px;
+
+ }
+ .about{
+    color: grey;
+    align: center;
+ }
+ h1{
+    text-align: center;
+ }
+ .hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 50px 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.image-container {
+    flex: 1;
+    padding: 10px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.text-container {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+    margin-top: 50px;
+}
+
+
+
+ 
+.text-container p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: rgb(158, 155, 155);
+}
+.skills {
+    padding: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #5e5c5c;
+    margin: 15px 0;
+    
+}
+
+.skill-name {
+    padding-left: 10px;
+    margin-left:10px;
+}
+
+.progress-bar {
+    width: 50%;
+    background-color: #f3f3f3;
+    border-radius: 15px;
+    margin: 10px auto;
+    height: 20px;
+    
+}
+
+.progress {
+    height: 100%;
+    background-color: #333;
+ 
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.bar{
+    height: 100px;
+    width: 1600px;
+    background-color: #333;
+}
+.content{
+    color: white;
+}
+ 
+    </style>
+</body>
+<header>
+    <div class="nav">
+         
+    <a href="">Home <style></style></a>
+    <a href="">About</a>
+    <a href="">Portfolio</a>
+    <a href="">Contact</a>
+    </div>
+    
+</header>
+<div class="main">
+    <img src="img1.jpeg" alt="">
+    <div class="box"><h class="h">MY WEBSITE LOGO</h>
+    </div>
+    
+</div>
+<div class="about">
+    <h1>ABOUT ME</h1>
+    <p1>I love photography</p1><br><br>
+    <p2>We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p2>
+     
+
+</div>
+
+<div class="container">
+    <div class="image-container">
+        <h4>My Name</h4>
+        <img src="img2.avif" alt="">
+    </div>
+    <div class="text-container">
+        <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        
+    </div>
+</div>
+<section class="skills">
+    <h3>I'm really good at:</h3>
+    <div class="skill">
+        <span class="skill-name"> Photography</span>
+        <div class="progress-bar">
+            <div class="progress" style="width: 90%;">90%</div>
+        </div>
+    </div>
+    <div class="skill">
+        <span class="skill-name"> Web Design</span>
+        <div class="progress-bar">
+            <div class="progress" style="width: 80%;">80%</div>
+        </div>
+    </div>
+    <div class="skill">
+        <span class="skill-name"> Photoshop</span>
+        <div class="progress-bar">
+            <div class="progress" style="width: 85%;"> 85%</div>
+        </div>
+    </div>
+</section>
+<div class="bar">
+    <div class="content"> 
+        <h>14+</h>
+        <p>Partner</p>
+    </div>
+
+</div>
+</html>
